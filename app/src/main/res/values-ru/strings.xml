@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_base_dialog_progress_content">Получение информации с сервера …</string>
+
+    <string name="activity_splash_text_title">Диспетчер телефона</string>
+    <string name="activity_splash_text_desc">Умный и мощный</string>
+
+    <string name="activity_main_button_on_lock">Блокировка приложений</string>
+    <string name="activity_main_button_save_battery">Сохранить батарею</string>
+    <string name="activity_main_button_game_mode">Игровой режим</string>
+    <string name="activity_main_button_safe_browser">Безопасный браузер</string>
+    <string name="activity_main_button_scan">Информация об устройстве</string>
+    <string name="activity_main_button_phone_boost">Усилить телефон</string>
+    <string name="activity_main_button_junk_files">Очистка файлов</string>
+
+    <string name="activity_save_battery_action_bar_text">Сохранить батарею</string>
+    <string name="activity_save_battery_check_box_under_30_percent">Предупреждение батареи</string>
+    <string name="activity_save_battery_check_box_brightness">Автоматически затемнять экран</string>
+    <string name="activity_save_battery_activity_dialog_message_request_setting_permission">Для управления и экономии батареи, пожалуйста, предоставьте разрешение, связанное с настройками приложения.</string>
+    <string name="activity_save_battery_label_battery_status">Заряд батареи</string>
+
+    <string name="activity_antivirus_action_bar_text">Антивирус</string>
+    <string name="activity_antivirus_button_scan_apps_text">Сканирование приложений</string>
+    <string name="activity_antivirus_button_scan_fast_text">Быстрое сканирование</string>
+    <string name="activity_antivirus_button_scan_select_text">Дополнительное сканирование</string>
+    <string name="activity_antivirus_button_update_antivirus_text">Проверьте наличие обновлений</string>
+    <string name="activity_antivirus_no_internet_available">Нет доступа в Интернет</string>
+    <string name="activity_antivirus_app_is_update">Программа актуальна.</string>
+    <string name="activity_antivirus_update_is_completed">Приложение успешно обновлено</string>
+
+    <string name="activity_about_us_text">Антивирус - это мощное и универсальное приложение с набором инструментов оптимизации и очистки для операционной системы Android, вы сможете уничтожать вирусные и вредоносные файлы на своем телефоне. Вы также можете удалить неиспользуемые и лишние файлы и программный кеш, чтобы значительно ускорить обработку ваших телефонов.</string>
+
+    <string name="activity_our_service_action_bar_title">Наш сервис</string>
+    <string name="activity_our_services_button_send_message">Отправить сообщение</string>
+    <string name="activity_our_services_button_contact">Контакт</string>
+    <string name="activity_our_services_progress_loading_text">Мы получаем наши услуги с сервера …</string>
+
+    <string name="activity_scan_apps_text_scan_is_finishe">Сканирование успешно завершено.</string>
+    <string name="activity_scan_apps_button_back">Назад </string>
+    <string name="activity_scan_apps_exit_text">
+Сканирование все еще выполняется, вы хотите выйти?</string>
+    <string name="activity_scan_fast_no_apps_found">Приложения не найдены.</string>
+
+    <string name="activity_scan_fast_text_scan_is_finished">اСканирование завершено успешно</string>
+    <string name="activity_scan_fast_button_back">Назад</string>
+    <string name="activity_scan_fast_exit_text">Сканирование все еще выполняется, вы желаете выйти?</string>
+    <string name="activity_scan_fast_no_files_found">Приложения не найдены.</string>
+
+    <string name="activity_scan_select_text_scan_is_finished">اСканирование завершено успешно</string>
+    <string name="activity_scan_select_button_back">Назад</string>
+    <string name="activity_scan_select_exit_text">Сканирование все еще выполняется, вы желаете выйти?</string>
+    <string name="activity_scan_select_no_files_found">Приложения не найдены.</string>
+    <string name="activity_scan_select_popup_title_text">Пожалуйста, выберите ветку, которую хотите сканировать.</string>
+    <string name="activity_scan_select_button_select_folder">Выбрать ветку</string>
+
+    <string name="activity_intro_button_done">Понял</string>
+    <string name="fragment_intro_first_title">Информация об устройстве</string>
+    <string name="fragment_intro_first_content">Простой способ получить доступ ко всей информации об устройстве</string>
+    <string name="fragment_intro_second_title">Очистить файлы</string>
+    <string name="fragment_intro_second_content">Помогаем ускорить пространство телефона и скорость</string>
+    <string name="fragment_intro_third_title">Аккумуляторная батарея</string>
+    <string name="fragment_intro_third_content">Оптимизировать энергопотребление и продлить срок службы батареи</string>
+    <string name="fragment_intro_fourth_title">Пожалуйста, поддержите нас, просматривая и нажимая на объявления</string>
+    <string name="fragment_intro_fourth_content">Антивирус.</string>
+
+    <string name="dialog_update_antivirus_label_updating_database">Обновление базы данных</string>
+    <string name="dialog_update_antivirus_label_antivirus">Антивирус</string>
+
+    <string name="dialog_message_button_confirm">Подтверждить</string>
+
+    <string name="dialog_confirm_button_confirm">Да</string>
+    <string name="dialog_confirm_button_cancel">Нет</string>
+
+    <string name="dialog_no_internet_connection_label_content">Пожалуйста, проверьте ваш интернет и попробуйте снова.</string>
+    <string name="dialog_no_internet_connection_button_close">Закрыть</string>
+
+    <string name="popup_snack_bar_button_confirm">Подтверждить</string>
+    <string name="popup_snack_bar_text">Текст</string>
+
+    <string name="popup_alert_button_confirm">Подтверждить</string>
+    <string name="popup_alert_button_cancel">Отмена</string>
+
+    <string name="service_base_notification_content_text">Устройство службы безопасности, не останавливайте его.</string>
+
+    <string name="receiver_battery_change_notification_context_text">Служба безопасности устройства, пожалуйста, не останавливайте его</string>
+
+    <string name="junk_clean_system_cache">Системная память</string>
+    <string name="junk_clean_system_cache_button_clean">Очистить память</string>
+    <string name="junk_clean_list_header_view_scan">Сканирование</string>
+    <string name="junk_clean_cache_clean">Очистить память</string>
+    <string name="junk_clean_process_clean">Очистить процессы</string>
+    <string name="junk_clean_apk_clean">Очмстить удаленные приложения</string>
+    <string name="junk_clean_tmp_clean">Удалить временные файлы</string>
+    <string name="junk_clean_log_clean">Очистить файлы журнала</string>
+    <string name="junk_clean_progress_cleaning">Сканирую …</string>
+    <string name="junk_clean_progress_cleaned">Процесс очистки был успешно завершен.</string>
+    <string name="junk_clean_system_cache_clean_finish">Системная память очищена.</string>
+    <string name="junk_clean_total_size">Всего найдено :</string>
+    <string name="activity_junk_clean_action_bar_text">Очищение файлов</string>
+    <string name="activity_junk_clean_no_need_to_clean">Там нет необходимости убирать на данный момент.</string>
+
+    <!-- CleanUtil -->
+
+
+    <string name="activity_scan_select_label_local_storage">Внутреннее хранилище</string>
+    <string name="activity_scan_select_label_external_storage">Карта памяти</string>
+    <string name="title_activity_device_info">DeviceInfoActivity</string>
+    <string name="version_name">Имя версии :</string>
+    <string name="vercion_code">Версия кода :</string>
+</resources>

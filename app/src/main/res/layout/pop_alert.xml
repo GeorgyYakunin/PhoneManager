@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popWindowAlert_rlMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorInfo">
+
+    <ImageView
+        android:id="@+id/popWindowAlert_ivIcon"
+        android:layout_width="@dimen/_42sdp"
+        android:layout_height="@dimen/_42sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/_12sdp"
+        android:src="@drawable/ic_alert"/>
+
+    <TextView
+        android:id="@+id/popWindowAlert_tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_alignTop="@+id/popWindowAlert_ivIcon"
+        android:layout_toLeftOf="@+id/popWindowAlert_ivIcon"
+        android:layout_toStartOf="@+id/popWindowAlert_ivIcon"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:layout_marginRight="@dimen/_12sdp"
+        android:gravity="center|start"
+        android:maxLines="1"
+        android:text=""
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/popWindowAlert_tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/popWindowAlert_tvTitle"
+        android:layout_toLeftOf="@+id/popWindowAlert_ivIcon"
+        android:layout_toStartOf="@+id/popWindowAlert_ivIcon"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginRight="@dimen/_12sdp"
+        android:gravity="center|start"
+        android:maxLines="5"
+        android:text=""
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/popWindowAlert_btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/popWindowAlert_tvMessage"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:paddingLeft="@dimen/_12sdp"
+        android:paddingTop="@dimen/_3sdp"
+        android:paddingRight="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_3sdp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/popup_alert_button_confirm"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/popWindowAlert_btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/popWindowAlert_btnConfirm"
+        android:layout_toEndOf="@+id/popWindowAlert_btnConfirm"
+        android:layout_below="@+id/popWindowAlert_tvMessage"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:paddingLeft="@dimen/_12sdp"
+        android:paddingTop="@dimen/_3sdp"
+        android:paddingRight="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_3sdp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/popup_alert_button_cancel"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

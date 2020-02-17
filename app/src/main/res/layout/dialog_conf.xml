@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/dgConfirm_tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/_6sdp"
+        android:padding="@dimen/_6sdp"
+        android:gravity="center|start"
+        android:text=""
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/dgConfirm_tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/dgConfirm_tvTitle"
+        android:layout_margin="@dimen/_6sdp"
+        android:padding="@dimen/_6sdp"
+        android:gravity="center|start"
+        android:text=""
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/grey_700"/>
+
+    <TextView
+        android:id="@+id/dgConfirm_btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/dgConfirm_tvMessage"
+        android:layout_margin="@dimen/_6sdp"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingTop="@dimen/_6sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:paddingBottom="@dimen/_6sdp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/dialog_confirm_button_confirm"
+        android:textSize="13sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/dgConfirm_btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/dgConfirm_btnConfirm"
+        android:layout_below="@+id/dgConfirm_tvMessage"
+        android:layout_margin="@dimen/_6sdp"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingTop="@dimen/_6sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:paddingBottom="@dimen/_6sdp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/dialog_confirm_button_cancel"
+        android:textSize="13sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</RelativeLayout>

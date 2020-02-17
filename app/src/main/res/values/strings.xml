@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name" translatable="false">Phone Manager</string>
+    <string name="junk_clean_list_header_view_total_size" translatable="false">0.00B</string>
+    <string name="byte_short" translatable="false">B</string>
+    <string name="kilo_byte_short" translatable="false">KB</string>
+    <string name="mega_byte_short" translatable="false">MB</string>
+    <string name="giga_byte_short" translatable="false">GB</string>
+    <string name="tera_byte_short" translatable="false">TB</string>
+    <string name="peta_byte_short" translatable="false">PB</string>
+    <string name="clean_file_size_suffix" translatable="false">%1$s%2$s</string>
+
+    <string name="activity_save_battery_label_seek_bar_left_side" translatable="false">0</string>
+    <string name="activity_save_battery_label_seek_bar_right_side" translatable="false">100</string>
+
+
+    <string name="activity_base_dialog_progress_content">Receiving information from server …</string>
+
+    <string name="activity_splash_text_title">Phone Manager</string>
+    <string name="activity_splash_text_desc">Smart and Powerful</string>
+
+    <string name="activity_main_button_on_lock">Lock Apps</string>
+    <string name="activity_main_button_save_battery">Save battery</string>
+    <string name="activity_main_button_game_mode">Game Mode</string>
+    <string name="activity_main_button_safe_browser">Safe Browser</string>
+    <string name="activity_main_button_scan">Device Info</string>
+    <string name="activity_main_button_phone_boost">Reinforce the phone</string>
+    <string name="activity_main_button_junk_files">Clearing files </string>
+
+    <string name="activity_save_battery_action_bar_text">Save battery</string>
+    <string name="activity_save_battery_check_box_under_30_percent">Battery alert</string>
+    <string name="activity_save_battery_check_box_brightness">Automatically dim the screen</string>
+    <string name="activity_save_battery_activity_dialog_message_request_setting_permission">To manage and save battery, please grant permission related to app setting.</string>
+    <string name="activity_save_battery_label_battery_status">Battery Status</string>
+
+    <string name="activity_antivirus_action_bar_text">Antivirus</string>
+    <string name="activity_antivirus_button_scan_apps_text">Scan Apps</string>
+    <string name="activity_antivirus_button_scan_fast_text">Fast scan </string>
+    <string name="activity_antivirus_button_scan_select_text">Optional scan</string>
+    <string name="activity_antivirus_button_update_antivirus_text">Check for updates</string>
+    <string name="activity_antivirus_no_internet_available">No Internet Access</string>
+    <string name="activity_antivirus_app_is_update">The Program is up to date.</string>
+    <string name="activity_antivirus_update_is_completed">App is updated successfully</string>
+
+    <string name="activity_about_us_text">Antivirus Antivirus is a powerful and versatile application with a set of optimization and cleaning tools for the Android operating system, you will be able to destroy viral and malicious files on your phone. you can also delete unused and extra files and program cache to speed up your phones processing speed dramatically.</string>
+
+    <string name="activity_our_service_action_bar_title">Our service</string>
+    <string name="activity_our_services_button_send_message">Send message</string>
+    <string name="activity_our_services_button_contact">Contact</string>
+    <string name="activity_our_services_progress_loading_text">We are receiving our services from the server …</string>
+
+    <string name="activity_scan_apps_text_scan_is_finishe">Scan completed successfully.</string>
+    <string name="activity_scan_apps_button_back">Back </string>
+    <string name="activity_scan_apps_exit_text">Scan is still running, do you want to exit?</string>
+    <string name="activity_scan_fast_no_apps_found">No apps found .</string>
+
+    <string name="activity_scan_fast_text_scan_is_finished">اScan completed successfully</string>
+    <string name="activity_scan_fast_button_back">Back</string>
+    <string name="activity_scan_fast_exit_text">Scan is still running, do you want to exit?</string>
+    <string name="activity_scan_fast_no_files_found">No apps found.</string>
+
+    <string name="activity_scan_select_text_scan_is_finished">Scan completed successfully</string>
+    <string name="activity_scan_select_button_back">Back</string>
+    <string name="activity_scan_select_exit_text">Scan is still running, do you want to exit?</string>
+    <string name="activity_scan_select_no_files_found">No apps found</string>
+    <string name="activity_scan_select_popup_title_text">Please select the branch you want to scan.</string>
+    <string name="activity_scan_select_button_select_folder">Select a branch</string>
+
+    <string name="activity_intro_button_done">Got it</string>
+    <string name="fragment_intro_first_title">Device Info</string>
+    <string name="fragment_intro_first_content">Easy Way to Access All The Device Information</string>
+    <string name="fragment_intro_second_title">Clear files</string>
+    <string name="fragment_intro_second_content">Helping to speed up the phone space and speed</string>
+    <string name="fragment_intro_third_title">Battery storage</string>
+    <string name="fragment_intro_third_content">Optimize power consumtion and extend battery life</string>
+    <string name="fragment_intro_fourth_title">Please support us by watching and clicking on ads</string>
+    <string name="fragment_intro_fourth_content">Antivirus.</string>
+
+    <string name="dialog_update_antivirus_label_updating_database">Updating database</string>
+    <string name="dialog_update_antivirus_label_antivirus">Antivirus</string>
+
+    <string name="dialog_message_button_confirm">Confirm</string>
+
+    <string name="dialog_confirm_button_confirm">Yes</string>
+    <string name="dialog_confirm_button_cancel">No</string>
+
+    <string name="dialog_no_internet_connection_label_content">Please check your internet and try again.</string>
+    <string name="dialog_no_internet_connection_button_close">Close</string>
+
+    <string name="popup_snack_bar_button_confirm">Confirm</string>
+    <string name="popup_snack_bar_text">Text</string>
+
+    <string name="popup_alert_button_confirm">Confirm</string>
+    <string name="popup_alert_button_cancel">Cancel</string>
+
+    <string name="service_base_notification_content_text">Device security service, do not stop it.</string>
+
+    <string name="receiver_battery_change_notification_context_text">Device security service , plese dont stop it</string>
+
+    <string name="junk_clean_system_cache">System memory</string>
+    <string name="junk_clean_system_cache_button_clean">Clear memory</string>
+    <string name="junk_clean_list_header_view_scan">Scan</string>
+    <string name="junk_clean_cache_clean">Clear memory</string>
+    <string name="junk_clean_process_clean">Clear processes</string>
+    <string name="junk_clean_apk_clean">Clear uninstalled applications</string>
+    <string name="junk_clean_tmp_clean">Delete temporary files</string>
+    <string name="junk_clean_log_clean">Clear log files</string>
+    <string name="junk_clean_progress_cleaning">Cleaning …</string>
+    <string name="junk_clean_progress_cleaned">The cleaning process has been completed successfully.</string>
+    <string name="junk_clean_system_cache_clean_finish">System memory cleared.</string>
+    <string name="junk_clean_total_size">Total items found :</string>
+    <string name="activity_junk_clean_action_bar_text">Clearing files</string>
+    <string name="activity_junk_clean_no_need_to_clean">There is no need to clean up for now.</string>
+
+
+    <!-- CleanUtil -->
+
+
+    <string name="activity_scan_select_label_local_storage">Internal storage</string>
+    <string name="activity_scan_select_label_external_storage">Memory card</string>
+    <string name="title_activity_device_info">DeviceInfoActivity</string>
+    <string name="version_name">Version Name :</string>
+    <string name="vercion_code">Version Code :</string>
+</resources>

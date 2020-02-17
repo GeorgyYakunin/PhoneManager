@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/acMain_clContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ActivityBasicMain">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/acMain_clTopContainer"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_225sdp"
+        android:background="@drawable/ic_activity_main_top_background"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/acMain_ivLogo"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_main_logo"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white_text"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="@id/acMain_ivLogo"
+            app:layout_constraintLeft_toRightOf="@+id/acMain_ivLogo"
+            app:layout_constraintTop_toTopOf="@+id/acMain_ivLogo" />
+
+
+
+        <com.skyfishjy.library.RippleBackground
+            android:id="@+id/acMain_rbRipple"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:rb_color="#39BBE6"
+            app:rb_radius="@dimen/_32sdp"
+            app:rb_rippleAmount="4"
+            app:rb_duration="3000"
+            app:rb_scale="6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="@dimen/_94sdp"
+                android:layout_height="@dimen/_94sdp"
+                android:src="@drawable/ic_main"
+                android:layout_centerInParent="true" />
+
+        </com.skyfishjy.library.RippleBackground>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/acMain_rlItemsTopDivider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_34sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/acMain_clTopContainer"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acMain_rlItemsTopDivider"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:id="@+id/acMain_btnScan"
+            android:layout_width="@dimen/_144sdp"
+            android:layout_height="@dimen/_112sdp"
+            android:background="@drawable/button_effect"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_12sdp"
+            android:paddingBottom="@dimen/_12sdp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/acMain_rlDivider">
+
+            <ImageView
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_idea" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/activity_main_button_scan"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/acMain_rlDivider"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_24sdp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/acMain_btnJunkFiles"
+            android:layout_width="@dimen/_144sdp"
+            android:layout_height="@dimen/_112sdp"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:background="@drawable/button_effect"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_12sdp"
+            android:paddingBottom="@dimen/_12sdp"
+            app:layout_constraintLeft_toRightOf="@+id/acMain_rlDivider"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <ImageView
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_junk_file" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/activity_main_button_junk_files"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/acMain_btnSaveBattery"
+            android:layout_width="@dimen/_144sdp"
+            android:layout_height="@dimen/_112sdp"
+            android:layout_marginTop="@dimen/_22sdp"
+            android:background="@drawable/button_effect"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_12sdp"
+            android:paddingBottom="@dimen/_12sdp"
+            app:layout_constraintLeft_toLeftOf="@id/acMain_btnScan"
+            app:layout_constraintTop_toBottomOf="@+id/acMain_btnScan"
+            app:layout_constraintRight_toRightOf="@+id/acMain_btnScan">
+
+            <ImageView
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_battery" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/activity_main_button_save_battery"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/acMain_btnSafeBrowser"
+            android:layout_width="@dimen/_144sdp"
+            android:layout_height="@dimen/_112sdp"
+            android:layout_marginTop="@dimen/_22sdp"
+            android:background="@drawable/button_effect"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/_12sdp"
+            android:paddingBottom="@dimen/_12sdp"
+            app:layout_constraintRight_toRightOf="@id/acMain_btnJunkFiles"
+            app:layout_constraintTop_toBottomOf="@+id/acMain_btnJunkFiles"
+            app:layout_constraintLeft_toLeftOf="@+id/acMain_btnJunkFiles">
+
+            <ImageView
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_safe_browser" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/activity_main_button_safe_browser"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

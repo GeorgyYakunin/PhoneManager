@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ActivityBasicSaverBattery">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/acSaveBattery_clActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:background="@drawable/ic_activity_save_battery_background"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+        
+        <ImageView
+            android:id="@+id/acSaveBattery_ivActionBarIcon"
+            android:layout_width="@dimen/_17sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:src="@drawable/ic_activity_save_battery_action_bar_battery_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/_12sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:gravity="center|start"
+            android:text="@string/activity_save_battery_action_bar_text"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/acSaveBattery_ivActionBarIcon"
+            app:layout_constraintLeft_toRightOf="@+id/acSaveBattery_ivActionBarIcon"
+            app:layout_constraintBottom_toBottomOf="@id/acSaveBattery_ivActionBarIcon"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_220sdp"
+            android:background="@drawable/ic_circle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <com.fara.phonemanager.customviews.WaveLoadingView
+                android:id="@+id/acSaveBattery_wlvLoading"
+                android:layout_width="@dimen/_161sdp"
+                android:layout_height="@dimen/_161sdp"
+                app:wlv_waveAmplitude="50"
+                app:wlv_waveColor="#118C67"
+                app:wlv_borderColor="#DFF4F1"
+                app:wlv_borderWidth="@dimen/_2sdp"
+                app:wlv_progressValue="70"
+                app:wlv_shapeType="circle"
+                app:wlv_round_rectangle="true"
+                app:wlv_triangle_direction="north"
+                app:wlv_titleTop="70%"
+                app:wlv_titleTopSize="@dimen/_12sdp"
+                app:wlv_titleTopColor="@color/white"
+                app:wlv_titleCenter="@string/activity_save_battery_label_battery_status"
+                app:wlv_titleCenterSize="@dimen/_14sdp"
+                app:wlv_titleCenterColor="@android:color/white"
+                app:wlv_textFontFromAsset="IRANYekanMedium.ttf"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/acSaveBattery_clBrightness"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginLeft="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:layout_marginRight="@dimen/_22sdp"
+        android:background="@drawable/label_effect"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acSaveBattery_clActionBar"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/acSaveBattery_tvLeftBrightness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:text="@string/activity_save_battery_label_seek_bar_left_side"
+            android:textSize="11sp"
+            android:textColor="@color/textColorPrimary"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <SeekBar
+            android:id="@+id/acSaveBattery_sbBrightness"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_marginRight="@dimen/_6sdp"
+            app:layout_constraintLeft_toRightOf="@+id/acSaveBattery_tvLeftBrightness"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/acSaveBattery_tvRightBrightness"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/acSaveBattery_tvRightBrightness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:text="@string/activity_save_battery_label_seek_bar_right_side"
+            android:textSize="11sp"
+            android:textColor="@color/textColorPrimary"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:layout_marginRight="@dimen/_22sdp"
+        android:paddingLeft="@dimen/_12sdp"
+        android:paddingTop="@dimen/_16sdp"
+        android:paddingRight="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_16sdp"
+        android:background="@drawable/button_effect_noborder"
+        android:layoutDirection="rtl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acSaveBattery_clBrightness"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <CheckBox
+            android:id="@+id/acSaveBattery_cbNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr"
+            app:buttonTint="@color/colorPrimary"
+            android:text="@string/activity_save_battery_check_box_under_30_percent"
+            android:textSize="11sp"
+            android:textColor="@color/textColorPrimary"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <CheckBox
+            android:id="@+id/acSaveBattery_cbBrightness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layoutDirection="ltr"
+            app:buttonTint="@color/colorPrimary"
+            android:text="@string/activity_save_battery_check_box_brightness"
+            android:textSize="11sp"
+            android:textColor="@color/textColorPrimary"
+            app:layout_constraintTop_toBottomOf="@+id/acSaveBattery_cbNotification"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

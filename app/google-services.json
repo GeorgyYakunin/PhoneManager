@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "187978400777",
+    "firebase_url": "https://antivirus-codecanyon.firebaseio.com",
+    "project_id": "antivirus-codecanyon",
+    "storage_bucket": "antivirus-codecanyon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187978400777:android:83a770fd79ed9f122be4d8",
+        "android_client_info": {
+          "package_name": "com.fara.phonemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187978400777-7l9rk5651m5q3a9kd074bpjlq2hkr2e8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPS7F3RnLk-2qVnWfFLhHRDJKbeEAAgFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187978400777-7l9rk5651m5q3a9kd074bpjlq2hkr2e8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
